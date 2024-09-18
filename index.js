@@ -53,6 +53,8 @@ for (let i=0; i<2400;i++){
         .attr("id", String("divname"))
         .addClass("divhere " + classname )
         .append("<span/>")
+        .attr('draggable', false)
+
 
         );
 
