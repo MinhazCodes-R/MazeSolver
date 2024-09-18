@@ -1,0 +1,21 @@
+.main_maze{
+    display: grid;
+    gap: 2px;
+    margin-left: 10vh;
+
+    grid-template-columns: repeat(60,1fr);
+    grid-template-rows: repeat(40,1fr);
+}
+
+.divhere{
+    background-color: rgb(213, 213, 213);
+    border-radius: 2px;
+}
+
+.active{
+    background-color: rgb(0, 0, 0);
+}
+
+.pathhere{
+    background-color: rgb(96, 234, 255);
+}
